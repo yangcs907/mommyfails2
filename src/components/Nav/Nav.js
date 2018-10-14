@@ -13,7 +13,7 @@ class Nav extends Component {
             </p>
           </div>
           <p>
-            “Bringing Hope and Healing to Moms Through Humorous Mommy Fail Stories.”
+            Honest and heartfelt mommy fail stories to bring moms together in hope and humor.
           </p>
         </div>
       </div>

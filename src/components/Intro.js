@@ -68,9 +68,7 @@ class Intro extends Component {
             <div className="content">
               <h4><i className="fas fa-book-open"></i>&nbsp;Our Story</h4>
               <p>
-                Mommy Fails is a movement where as moms we use our stories to bring about hope and healing to other moms everywhere.
-                By sharing our humorous mommy fail stories, that are common to all moms, we want to empower and encourage all moms to
-                find the courage to live out the high calling of motherhood [high calling of being a mom].
+                Mommy Fails is a movement that uses mommy fail stories and humor to bring about hope and healing to moms everywhere. By sharing mommy fail stories that are common to all moms, we want to empower and encourage all moms to find the courage to live out the high calling of motherhood.
               </p>
               <div className="contentVideo">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8-Qbrn8CQRA"
