@@ -61,42 +61,45 @@ class Intro extends Component {
       sampleClass = "sampleOff"
     }
 
-    return(
+    return (
       <div className="mainContent">
         <div className={sampleClass}>
           <div className="introBody">
             <div className="content">
               <h4><i className="fas fa-book-open"></i>&nbsp;Our Story</h4>
-              <p>Mommy Fails is a way that moms from around the world can connect through personal
-                stories about the hardships and difficulties of being a mother.
+              <p>
+                Mommy Fails is a movement where as moms we use our stories to bring about hope and healing to other moms everywhere.
+                By sharing our humorous mommy fail stories, that are common to all moms, we want to empower and encourage all moms to
+                find the courage to live out the high calling of motherhood [high calling of being a mom].
               </p>
               <div className="contentVideo">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Cyy24KKjP2Q"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8-Qbrn8CQRA"
                   frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               </div>
             </div>
 
           </div>
           <div className="introBody">
-            <div className="content">
+            <div className="content" id="contentYourStory">
               <h4><i className="fas fa-star"></i>&nbsp;Your Story</h4>
               <p>
-                (This section is currently still under construction, please check back shortly, thank you!)
-                <br></br><br></br>
-                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                As moms, we all have a mommy fail story. It’s a requirement to be part of this group. But for so long these stories have been a force of division and isolation. It has caused us to be critical and judgmental of each other as we deal with our own feelings of isolation, insecurity, guilt, depression and a whole laundry list of other unhealthy emotions. And seriously, who needs more laundry? Now is our time to break this cycle, where these mommy fail stories that once broke us and divided us can now unite us.
+              </p>
+              <p>
+                At Mommyfails we live by the motto “Real change happens when my story and your story becomes OUR STORY.” Let’s support each other by submitting our mommy fail story, that these stories of “brokenness” [in our own lives] can be transformed into stories of beauty [in the lives of other moms.].
               </p>
               <div className="contentVideo" id="yourStoryContent">
                 <div className="row">
                   <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l9IQNCj0U9k"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq5AZ5WdHkg"
                       frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                   <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mlXuZwtrh_o"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/n2st5gEjmBc"
                       frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                   <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/u42O6t1U7ng"
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3TlMv8RgnLc"
                       frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                   </div>
                 </div>

@@ -158,6 +158,7 @@ body {
 
 .content p {
   font-size: 19.5px;
+  margin-bottom: 25px;
 }
 
 .content i {
@@ -322,10 +323,16 @@ body {
 }
 
 .terms {
+  font-size: 12px;
+  padding: 5px;
   border-style: solid;
   border-color: rgba(158,158,158,0.3);
   border-radius: 5px;
-  height: 80px;
+  height: 130px;
+  overflow-y: scroll;
+}
+.terms strong {
+  font-weight: bold !important;
 }
 
 .submit {
@@ -427,6 +434,18 @@ body {
 .footerLeft p {
   float: right;
 }
+.sampleContainer {
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  overflow-y: scroll;
+  top: 0;
+  width: 99999px;
+  max-width: 100%;
+  padding: 300px;
+  margin: auto;
+  background-color: rgba(255,255,255,0,6);
+}
 
 @media screen and (max-width: 580px) {
   .logo h1 {
@@ -444,6 +463,9 @@ body {
   .content p {
     font-size: 17px;
   }
+  #contentYourStory {
+    border-style: none;
+  }
   .buttonSection i {
     font-size: 28px;
   }
@@ -454,10 +476,13 @@ body {
     font-size: 20px;
   }
   .contact {
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .formContainer {
     margin-top: 300px;
+  }
+  .sampleContainer {
+    padding: 10px;
   }
 }
 

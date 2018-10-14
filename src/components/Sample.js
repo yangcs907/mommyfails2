@@ -1,24 +1,21 @@
 import React, { Component } from "react";
+import example1 from "./images/example1.png";
+import example2 from "./images/example2.png";
+import example3 from "./images/example3.png";
 
-const sampleContainer = {
-  textAlign: "center",
-  position: "fixed",
-  height: "100%",
-  top: "0",
-  width: "9999px",
-  maxWidth: "100%",
-  backgroundColor: "rgba(255,255,255,0.6)"
-}
 
 const sampleSection = {
   textAlign: "center",
-  height: "100%"
+  height: "100%",
+  width: "100%",
+  maxWidth: "100%"
 }
 
 const closeButtonSection = {
   width: "9999px",
   maxWidth: "100%",
-  padding: "15px"
+  padding: "15px",
+  paddingRight: "0px"
 }
 
 const closeButton = {
@@ -32,20 +29,34 @@ const closeButton = {
   float: "right",
 }
 
+const sampleColumn = {
+  width: "500px",
+  maxWidth: "100%",
+  margin: "auto"
+}
+const imgStyle = {
+  width: "100%",
+  marginTop: "-5px",
+  marginBottom: "0px"
+}
+
 class Sample extends Component {
   render() {
     return(
-      <div style={sampleContainer}>
+      <div className="sampleContainer">
           <div style={closeButtonSection}>
         <button onClick={this.props.hideSample} style={closeButton}><i class="far fa-times-circle"></i></button>
         </div>
         <div style={sampleSection}>
-        <h1>Hello There</h1>
-        <p>The sample form is still under construction, thank you!</p>
-        <br></br>
-        <p>Image of a sample form will appear here</p>
-        </div>
+        <img src={example1} alt="example1" style={imgStyle} />
+          <img src={example2} alt="example2" style={imgStyle} />
+            <img src={example3} alt="example3" style={imgStyle} />
+              <div style={closeButtonSection}>
+            <button onClick={this.props.hideSample} style={closeButton}><i class="far fa-times-circle"></i></button>
+            </div>
       </div>
+
+    </div>
     )
   }
 }

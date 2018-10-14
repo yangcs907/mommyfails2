@@ -12,8 +12,8 @@ class Nav extends Component {
               _____________________________
             </p>
           </div>
-          <p>Being a mom is hard, let's support one another
-            and share our trials and struggles
+          <p>
+            “Bringing Hope and Healing to Moms Through Humorous Mommy Fail Stories.”
           </p>
         </div>
       </div>
