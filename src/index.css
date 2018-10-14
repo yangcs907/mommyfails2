@@ -1,4 +1,4 @@
-* {
+rgba(158,158,158,1)* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -149,7 +149,7 @@ body {
   padding-top: 10px;
   margin: auto;
   margin-top: 10px;
-  color: rgba(158,158,158);
+  color: rgba(158,158,158,1);
 }
 
 .content h4 {
@@ -310,7 +310,7 @@ body {
 
 .lessonHeader {
   text-align: left;
-  color: rgba(158,158,158);
+  color: rgba(158,158,158,1);
 }
 
 .lessonHeader p {
@@ -369,7 +369,7 @@ body {
   font-size: 28px;
   padding: 20px;
   margin: auto;
-  color: rgba(158,158,158);
+  color: rgba(158,158,158,1);
   text-align: center;
 }
 
@@ -398,7 +398,7 @@ body {
   margin: auto;
   padding-left: 70px;
   padding-right: 70px;
-  color: rgba(158,158,158);
+  color: rgba(158,158,158,1);
 }
 .contact h6 {
   font-size: 20px;
