@@ -1,6 +1,9 @@
 {
   "name": "mommyfailsnew",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.1.0"
+  },
   "private": true,
   "dependencies": {
     "firebase": "^5.5.4",
