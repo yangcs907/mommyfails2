@@ -74,7 +74,7 @@ class Intro extends Component {
               </p>
               <div className="contentVideo">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/8-Qbrn8CQRA"
-                  frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               </div>
             </div>
 
@@ -88,21 +88,21 @@ class Intro extends Component {
               <p>
                 At Mommyfails we live by the motto “Real change happens when my story and your story becomes OUR STORY.” Let’s support each other by submitting our mommy fail story, that these stories of “brokenness” [in our own lives] can be transformed into stories of beauty [in the lives of other moms.].
               </p>
-              <div className="contentVideo" id="yourStoryContent">
-                <div className="row">
-                  <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq5AZ5WdHkg"
-                      frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                  <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/n2st5gEjmBc"
-                      frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                  <div className="col s12 m4">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3TlMv8RgnLc"
-                      frameBorder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                </div>
+            </div>
+          </div>
+          <div className="yourStoryContent">
+            <div className="row">
+              <div className="col s12 m4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq5AZ5WdHkg"
+                  frameBorder="0" allow="autoplay; encrypted-media; theater" allowFullScreen></iframe>
+              </div>
+              <div className="col s12 m4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/n2st5gEjmBc"
+                  frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              </div>
+              <div className="col s12 m4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3TlMv8RgnLc"
+                  frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               </div>
             </div>
           </div>
