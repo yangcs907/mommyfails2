@@ -457,6 +457,9 @@ body {
   .contact {
     padding-left: 20px;
   }
+  .formContainer {
+    margin-top: 300px;
+  }
 }
 
 @media screen and (max-width: 366px) {
