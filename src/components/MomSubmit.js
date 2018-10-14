@@ -192,7 +192,7 @@ class MomSubmit extends Component {
                   </div>
                 </div>
                 <div class="row">
-                  <div class="input-field col s6">
+                  <div class="input-field col s12 m6">
                     <textarea
                       name="bio"
                       id="bio"
@@ -203,7 +203,7 @@ class MomSubmit extends Component {
                       />
                     <label for="bio">Brief Bio</label>
                   </div>
-                  <div class="input-field col s6">
+                  <div class="input-field col s12 m6">
                     <p className="radioHeader">How old was your child in this story?</p>
                     <form action="#">
                       <div className="radioGroup">
