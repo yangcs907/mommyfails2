@@ -384,7 +384,7 @@ class MomSubmit extends Component {
                 </div>
                 <div class = "row">
                   <div className="lessonHeader">
-                    <p>What are three takeways or lessons from your story that can help encourage other mothers?</p>
+                    <p>What are two-three lessons from your story that can help encourage other moms?</p>
                   </div>
                 </div>
                 <div class="row">
