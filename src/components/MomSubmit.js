@@ -162,7 +162,7 @@ class MomSubmit extends Component {
             <p>
               Submit Your Story Here
               <br></br>
-              <sup>(To be included in our MommyFails book due out 12/2019)</sup>
+              <sup>(to be included in our Mommy Fails book due out 12/2019)</sup>
             </p>
 
           </div>
