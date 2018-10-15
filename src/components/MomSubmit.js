@@ -338,6 +338,8 @@ class MomSubmit extends Component {
                                 (18 + yrs)
                               </span>
                             </label>
+                          </p>
+                          <p>
                             <label>
                               <input
                                 name="childAge"

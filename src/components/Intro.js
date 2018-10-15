@@ -81,11 +81,10 @@ class Intro extends Component {
             <div className="content" id="contentYourStory">
               <h4><i className="fas fa-star"></i>&nbsp;Your Story</h4>
               <p>
-                As moms, we all have a mommy fail story. It’s a requirement to be part of this group. But for so long these stories have been a force of division and isolation. It has caused us to be critical and judgmental of each other as we deal with our own feelings of isolation, insecurity, guilt, depression and a whole laundry list of other unhealthy emotions. And seriously, who needs more laundry? Now is our time to break this cycle, where these mommy fail stories that once broke us and divided us can now unite us.
+                Moms all have a fail story. It’s a requirement to be part of this group. But for so long, these stories have been a force of division and isolation. It has caused moms to be critical and judgmental of each other as they deal with their own feelings of isolation, insecurities, guilt, depression, and a whole laundry list of other unhealthy emotions. And seriously, who needs more laundry? Now is the time to break this cycle. These mommy fail stories that once broke and divided, can now unite!
               </p>
               <p>
-                At Mommyfails we live by the motto “Real change happens when my story and your story becomes OUR STORY.” Let’s support each other by submitting our mommy fail story, that these stories of “brokenness” [in our own lives] can be transformed into stories of beauty [in the lives of other moms.].
-              </p>
+                At MommyFails, our motto is “Real change happens when my story and your story becomes OUR STORY.” Let’s support one another by submitting our mommy fail story, so that these stories of failure can be transformed into stories of beauty and encouragement.              </p>
             </div>
           </div>
           <div className="yourStoryContent">
