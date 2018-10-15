@@ -159,10 +159,15 @@ class MomSubmit extends Component {
       return (
         <div className="formContainer">
           <div className="formTitle">
-            <p>Submit Your Story Here</p>
+            <p>
+              Submit Your Story Here
+              <br></br>
+              <sup>(To be included in our MommyFails book due out 12/2019)</sup>
+            </p>
+
           </div>
           <div className="sampleButton">
-            <button onClick={this.props.showSample} id="sampleButton">Click here for a sample</button>
+            <button onClick={this.props.showSample} id="sampleButton">Click here for a sample story submission</button>
           </div>
           <div className="formSection">
             <div class="row">

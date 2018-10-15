@@ -123,6 +123,8 @@ body {
   text-align: center;
 }
 
+
+
 .introBodyVideo {
   margin: auto;
   width: 500px;
@@ -170,6 +172,15 @@ body {
   margin: auto;
   margin-top: 20px;
   border-radius: 5px;
+}
+
+#contentYourStory {
+  border-style: none !important;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+#contentYourStory p {
+  margin: 10px;
 }
 
 .contentVideo iframe {
@@ -266,11 +277,12 @@ body {
   height: 40px;
   background-color: rgba(255,255,255,0.0);
   text-align: center;
-  width: 300px;
+  width: 500px;
   max-width: 100%;
-  font-size: 25px;
+  font-size: 22px;
   margin: auto;
   margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .formSection {
@@ -486,6 +498,10 @@ body {
   }
   .contact {
     padding-left: 10px;
+  }
+  .formTitle {
+    margin-bottom: 35px;
+    font-size: 20px;
   }
   .sampleContainer {
     padding: 10px;
